@@ -72,7 +72,7 @@ class AutoCompleteTableRowView: NSTableRowView {
     }
 
     override var interiorBackgroundStyle: NSView.BackgroundStyle {
-        return self.isSelected ? NSView.BackgroundStyle.dark : NSView.BackgroundStyle.light
+        return self.isSelected ? NSView.BackgroundStyle.emphasized : NSView.BackgroundStyle.normal
     }
 }
 
